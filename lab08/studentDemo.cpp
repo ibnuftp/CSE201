@@ -6,7 +6,7 @@
 using namespace std ;
 
 void populateStudents(ifstream& fs , Student std[] , const int size) ;
-int findMaxGPA(Student std[] , const int size) ;
+int findHighestGPA(Student std[] , const int size) ;
 
 int main(int argc , char* argv[])
 {
